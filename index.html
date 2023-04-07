@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+ 
+    <title>НПИ АГИ</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-nav">
+            <a href="./index.html" class="header-nav_logo-link"><div class="header-nav_logo"></div></a>
+            <nav class="header-nav_menu">
+                <a href="" class="header-nav_menu_item">О компании</a>
+                <a href="" class="header-nav_menu_item">Услуги</a>
+                <a href="" class="header-nav_menu_item">Проекты</a>
+                <a href="" class="header-nav_menu_item">Контакты</a>
+                <div class="header-nav_menu_search">
+                    <div class="header-nav_menu_search_btn" onclick="searchAppear(event)"></div>
+                    <input type="text" id="search">
+                </div>
+            </nav>
+        </div>
+        <div class="hero">
+            <div class="hero_content">
+                <h1 class="hero_title">Институт «Архитектуры Градостроительства Инжиниринга» (НПИ АГИ)</h1>
+                <p class="hero_text">– научно-проектный институт, осуществляющий комплекс услуг в области
+                     стратегического территориального планирования, архитектуры, инженерной инфраструктуры и проектных работ.</p>
+            </div>
+            <button class="hero_btn">Подробнее
+                <div class="hero_btn_arrow"></div>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <section class="advanteges">
+            <div class="advanteges_top">
+                <h2 class="advateges_title">Наши преимущества</h2>
+            </div>
+            
+            <ul class="advateges_list">
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_quality"></div>
+                    <h3 class="advanteges_item_title">Высокое качество <br> исполнения работ</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_deadlines"></div>
+                    <h3 class="advanteges_item_title">Соблюдение сроков</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_approach"></div>
+                    <h3 class="advanteges_item_title">Индивидуальный <br> подход</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_professionals"></div>
+                    <h3 class="advanteges_item_title">Команда <br> специалистов </h3>
+                </li>
+            </ul>
+            <ul class="advateges_list">
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_experience"></div>
+                    <h3 class="advanteges_item_title">Богатый опыт работы</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_geografy"></div>
+                    <h3 class="advanteges_item_title">Обширная география <br> проектов</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_tasks"></div>
+                    <h3 class="advanteges_item_title">Реализация сложных <br> задач</h3>
+                </li>
+                <li class="advateges_item">
+                    <div class="advanteges_item_image advanteges_item_image_sro"></div>
+                    <h3 class="advanteges_item_title">Членство в СРО</h3>
+                </li>
+            </ul>
+        </section>
+        <section class="work">
+            <div class="work_top">
+                <h2 class="work_title">НПИ АГИ выполняет следующие виды работ: </h2>
+                <button class="work_btn">Подробнее <div class="work_btn_arrow"></div></button>
+            </div>
+            <ul class="work_list" type="disc">
+                <li class="work_items">схемы территориального планирования,</li>
+                <li class="work_items">правила землепользования и застройки,</li>
+                <li class="work_items">генеральные планы,</li>
+                <li class="work_items">архитектурно-градостроительные концепции,</li>
+                <li class="work_items">документация по планировке территории,</li>
+                <li class="work_items">архитектурно-строительное проектирование,</li>
+                <li class="work_items">кадастровые и землеустроительные работы,</li>
+                <li class="work_items">ГИС (геоинформационные системы),</li>
+                <li class="work_items">инженерно-геодезические изыскания</li>
+            </ul>
+            
+        </section>
+        <section class="projects">
+            <div class="projects_top">
+                <h2 class="projects_title">Наши проекты</h2>
+                <a href="" class="projects_link">Ко всем проектам <div class="projects_arrow"></div></a>
+            </div>
+            <ul class="projects_boxes">
+                <li class="project_box">
+                    <div class="project_box_picture project_box_picture__building"></div>
+                    <p class="project_box_text">Архитектурно-планировочная концепция концертного комплекса в Краснодаре</p>
+                </li>
+                <li class="project_box">
+                    <div class="project_box_picture project_box_picture__map-1"></div>
+                    <p class="project_box_text">Изменения в схему территориального планирования Кингисеппского муниципального района</p>
+                </li>
+                <li class="project_box">
+                    <div class="project_box_picture project_box_picture__map-2"></div>
+                    <p class="project_box_text">Проект планировки и межевания территории в юго-восточной части поселка Усть-Луга</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_left">
+            <div class="footer_left_logo"></div>
+            <p class="footer_left_warning">Использование материалов сайта npi-agi.ru разрешено только 
+                с предварительного согласия правообладателей. Все права на фотографии и тексты принадлежат ООО НПИ «АГИ».</p>
+        </div>
+        <nav class="footer_menu">
+            <h3 class="footer_menu_title">Меню</h3>
+            <a href="" class="footer_menu_items">О компании</a>
+            <a href="" class="footer_menu_items">Новости</a>
+            <a href="" class="footer_menu_items">Проекты</a>
+            <a href="" class="footer_menu_items">Контакты</a>
+        </nav>
+        <div class="footer_contects">
+            <h3 class="footer_contects_title">Контакты</h3>
+            <div class="footer_contects_email">
+                <div class="footer_contects_email_image"></div>
+                <p class="footer_contects_email_text">mail@npi-agi.ru</p>
+            </div>
+            <div class="footer_contects_phone">
+                <div class="footer_contects_phone_image"></div>
+                <p class="footer_contacts_phone_number">+7(812) 627-17-68</p>
+            </div>
+        </div>
+        <p class="footer_year">© 2022</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
