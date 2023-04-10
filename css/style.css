@@ -1,3 +1,6 @@
+html {
+    font-size: 0.83vw;
+}
 /*--------------HEADER---------------*/
 .header {
     width: 100%;
@@ -11,17 +14,17 @@
 }
 
 .header-nav {
-    width: 1290px;
+    width: 67vw;
     margin: 0 auto;
-    padding-top: 42px;
+    padding-top: 2.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-nav_logo {
-    width: 242px;
-    height: 30px;
+    width: 15.1rem;
+    height: 1.9rem;
 
     background-image: url('../images/logo.svg');
     background-position: right;
@@ -33,32 +36,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 3rem;
 }
 
 .header-nav_menu_item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.125rem;
+    line-height: 1.69rem;
 
     color: rgba(0, 0, 0, 0.7);  
     text-decoration: none;
 }
 
+.header-nav_menu_item:hover {
+    color: rgba(76, 76, 76, 0.7);
+}
 .header-nav_menu_search {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 0.3rem;
 }
 .header-nav_menu_search_btn {
     border: none;
     background-color: transparent;
 
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
 
     background-image: url('../images/search.svg');
     background-position: center;
@@ -87,36 +93,36 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 3.125rem;
+    line-height: 3.75rem;
 
     color: rgba(0, 0, 0, 0.7);
-    width: 1096px;
+    width: 57.08vw;
 }
 
 .hero_text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 40px;
+    font-size: 2.19rem;
+    line-height: 2.5rem;
     
     color: rgba(0, 0, 0, 0.5);
-    width: 1045px;
-    padding-top: 13px;
+    width: 54.4rem;
+    padding-top: 0.81rem;
 }
 
 .hero_btn {
     border: none;
-    width: 240px;
-    height: 51px;
+    width: 15rem;
+    height: 3.19rem;
     background-color: #264A87;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
 
     letter-spacing: 0.03em;
 
@@ -131,8 +137,8 @@
 }
 
 .hero_btn_arrow {
-    width: 7px;
-    height: 11px;
+    width: 0.44rem;
+    height: 0.69rem;
     margin-left: 40px;
 
     background-image: url('../images/arrow_btn.svg');
@@ -153,14 +159,14 @@
 /*---------------MAIN-----------------------*/
 
 .advanteges {
-    padding-top: 114px;
-    padding-bottom: 141px;
+    padding-top: 7.125rem;
+    padding-bottom: 8.81rem;
 }
 
 .advanteges_top {
-    width: 1321px;
+    width: 68.80vw;
     border-bottom: 1px solid black;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
     margin: 0 auto;
 }
 
@@ -168,23 +174,23 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 34px;
+    font-size: 2.5rem;
+    line-height: 2.125rem;
 
     color: #000000;
 }
 
 .advateges_list {
-    padding-top: 55px;
+    padding-top: 3.44rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 73px;
+    gap: 4.56rem;
 }
 
 .advanteges_item_image {
-    width: 275px;
-    height: 275px;
+    width: 14.32vw;
+    height: 14.32vw;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -195,8 +201,8 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
-    line-height: 27px;
+    font-size: 1.3rem;
+    line-height: 1.69rem;
 
     text-align: center;
     text-transform: uppercase;
@@ -204,7 +210,7 @@
     color: #264A87;
     
     opacity: 0.9;
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .advanteges_item_image_quality {
@@ -241,12 +247,12 @@
 
 .work {
     background-color: #264A87;
-    padding-top: 57px;
-    padding-bottom: 57px;
+    padding-top: 2.97vw;
+    padding-bottom: 2.97vw;
 }
 
 .work_top {
-    width: 1320px;
+    width: 68.75vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -257,8 +263,8 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 27px;
+    font-size: 2.5rem;
+    line-height: 1.69rem;
     
     color: #FFFFFF;
 }
@@ -277,16 +283,16 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
 
     color: #FFFFFF;
 
 }
 
 .work_btn_arrow {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 
     background-image: url('../images/arrow_btn_work.svg');
     background-position: center;
@@ -295,28 +301,32 @@
 }
 
 .work_list {
-    padding-top: 30px;
-    padding-left: 400px;
+    padding-top: 1.88rem;
+    padding-left: 20.83vw;
     list-style-type: disc;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 1.275rem;
+    line-height: 2.06rem;
 
     color: #FFFFFF;
 }
+
+.work_items {
+    list-style-type: disc;
+}
 .projects {
-    padding-top: 81px;
-    padding-bottom: 108px;
+    padding-top: 4.22vw;
+    padding-bottom: 5.625vw;
 
 }
 .projects_top {
-    width: 1321px;
+    width: 68.80vw;
     margin: 0 auto;
-    padding-bottom: 15px;
-    margin-bottom: 58px;
+    padding-bottom: 1rem;
+    margin-bottom: 3.625rem;
 
     border-bottom: 1px solid black;
 
@@ -330,8 +340,8 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 34px;
+    font-size: 2.5rem;
+    line-height: 2.125rem;
     
     color: #000000;
     
@@ -342,8 +352,8 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
 
     color: #000000;
 
@@ -353,8 +363,8 @@
 }
 
 .projects_arrow {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 
     background-image: url('../images/arrow_projects.svg');
     background-position: center;
@@ -366,19 +376,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 27px;
+    gap: 1.69rem;
 }
 
 .project_box {
-    width: 420px;
-    height: 379px;
+    width: 21.875vw;
+    height: 20vw;
 
     box-shadow: 5px 5px 5px rgb(228, 228, 228);
 }
 
 .project_box_picture {
     width: 100%;
-    height: 265px;
+    height: 13.80vw;
 
     background-position: center;
     background-repeat: no-repeat;
@@ -398,31 +408,40 @@
 }
 
 .project_box_text {
-    padding: 16px 19px 0px 19px;
+    padding: 1rem 1.19rem 0px 1.19rem;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
-    line-height: 27px;
+    font-size: 1.31rem;
+    line-height: 1.69rem;
     
     color: #000000;
 }
 
+
+
+
+
+
+
+
+
+/*-----------------FOOTER----------------------*/
 .footer {
-    padding-top: 103px;
-    padding-bottom: 146px;
+    padding-top: 5.36vw;
+    padding-bottom: 7.6vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 300px;
+    gap: 15.625vw;
     background-color: #264A87;
 
     position: relative;
 }
 
 .footer_left_logo {
-    width: 283px;
-    height: 36px;
+    width: 17.69rem;
+    height: 2.25rem;
 
     background-image: url('../images/footer-logo.svg');
     background-position: center;
@@ -432,14 +451,14 @@
 }
 
 .footer_left_warning {
-    padding-top: 114px;
-    width: 373px;
+    padding-top: 5.94vw;
+    width: 19.43vw;
 
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 0.75rem;
+    line-height: 1rem;
 
     color: #FFFFFF;
 }
@@ -447,17 +466,17 @@
 .footer_menu {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 0.25rem;
 }
 
 .footer_menu_title {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 207.9%;
 
-    letter-spacing: 6px;
+    letter-spacing: 0.375rem;
     text-transform: uppercase;
     
     color: #FFFFFF;
@@ -468,10 +487,10 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 222.75%;
     
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     
     color: #FCFCFC;
     text-decoration: none;
@@ -481,10 +500,10 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 207.9%;
 
-    letter-spacing: 6px;
+    letter-spacing: 0.325rem;
     text-transform: uppercase;
     
     color: #FFFFFF;
@@ -494,14 +513,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .footer_contects_email_text, .footer_contacts_phone_number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 163.35%;
     
     color: #FCFCFC;
@@ -509,8 +528,8 @@
 }
 
 .footer_contects_email_image {
-    width: 20px;
-    height: 16px;
+    width: 1.25rem;
+    height: 1rem;
 
     background-image: url('../images/email.svg');
     background-position: center;
@@ -530,16 +549,22 @@
 
 .footer_year {
     position: absolute;
-    right: 300px;
-    bottom: 130px;
+    right: 15.625vw;
+    bottom: 6.77vw;
 
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 0.75rem;
+    line-height: 1rem;
 
     text-align: right;
 
     color: #FFFFFF;
+}
+@media screen and (max-width: 1400px) {
+    .header {
+        background-size: cover;
+    
+    }
 }

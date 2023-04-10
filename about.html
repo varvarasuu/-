@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-about.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+ 
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-nav">
+            <a href="./index.html" class="header-nav_logo-link"><div class="header-nav_logo"></div></a>
+            <nav class="header-nav_menu">
+                <a href="./about.html" class="header-nav_menu_item header-nav_menu_item__about">О компании</a>
+                <a href="" class="header-nav_menu_item">Услуги</a>
+                <a href="" class="header-nav_menu_item">Проекты</a>
+                <a href="" class="header-nav_menu_item">Контакты</a>
+                <div class="header-nav_menu_search">
+                    <div class="header-nav_menu_search_btn" onclick="searchAppear(event)"></div>
+                    <input type="text" id="search">
+                </div>
+            </nav>
+        </div>
+        <section class="hero">
+            <div class="hero-border">
+                <h1 class="hero_title">О компании</h1>
+            </div>
+           <p class="hero_content"><span> Институт «Архитектуры Градостроительства Инжиниринга» (НПИ АГИ) – </span> <br> научно-проектный институт, 
+            осуществляющий комплекс услуг в области стратегического территориального планирования, архитектуры, инженерной инфраструктуры и проектных работ. <br><br>
+
+            Проекты Института направлены на комплексное и устойчивое развитие территории, создание
+             максимально комфортных условий для проживания и 
+            формирования благоприятной среды. Используя новейшие технологии, 
+            мы применяем нестандартные и креативные решения, поэтому наши 
+            проекты отвечают самым высоким стандартам качества. <br><br>
+            
+            
+            Институт оказывает полный спектр услуг от разработки 
+            предпроектных исследований и концепций до получения
+            заключения экспертизы по проекту и начала строительства.
+            </p>
+        </section>
+    </header>
+    <main class="main">
+        <section class="about-company">
+            <div class="about-company_border">
+                <h2 class="about-company_text active" onclick="chooseTeam(event)">Команда</h2>
+                <h2 class="about-company_text" onclick="chooseVacancies(event)">Вакансии</h2>
+                <h2 class="about-company_text" onclick="chooseLisences(event)">Лицензии и сертификаты</h2>
+            </div>
+            <div class="about-company_team_content block">
+                <p class="about-company_team_content_text">Главная ценность НПИ АГИ – штат опытных градостроителей,
+                     архитекторов, инженеров и специалистов, обладающий широким опытом и знаниями в области
+                      градостроительства, проектирования и проведения инженерных изысканий.
+                </p>
+                <ul class="about-company_team_content_people-list">
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_pavel"></div>
+                        <h3 class="about-company_team_content_people-item_name">Павел Павлович <br> Спирин</h3>
+                        <p class="about-company_team_content_people-item_discription">Генеральный директор, советник РААСН,
+                             кандидат географических наук, доцент</p>
+                    </li>
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_irina-v"></div>
+                        <h3 class="about-company_team_content_people-item_name">Ирина Валентиновна <br> Попова</h3>
+                        <p class="about-company_team_content_people-item_discription">Заместитель генерального 
+                            директора</p>
+                    </li>
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_dmitriy"></div>
+                        <h3 class="about-company_team_content_people-item_name">Дмитрий Анатольевич <br> Парфенов</h3>
+                        <p class="about-company_team_content_people-item_discription">Заместитель генерального директора по кадастровому обеспечению</p>
+                    </li>
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_elena"></div>
+                        <h3 class="about-company_team_content_people-item_name">Елена Павловна <br> Смищук</h3>
+                        <p class="about-company_team_content_people-item_discription">Финансовый директор</p>
+                    </li>
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_svetlana"></div>
+                        <h3 class="about-company_team_content_people-item_name">Светлана Исмагиловна <br> Садретдинова</h3>
+                        <p class="about-company_team_content_people-item_discription">Начальник отдела кадров</p>
+                    </li>
+                    <li class="about-company_team_content_people-item">
+                        <div class="about-company_team_content_people-item_picture about-company_team_content_people-item_picture_irina-s"></div>
+                        <h3 class="about-company_team_content_people-item_name">Ирина Сергеевна <br> Бутримова</h3>
+                        <p class="about-company_team_content_people-item_discription">Начальник отдела землеустроительных, кадастровых и оценочных работ</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-company_vacancies_content">
+                <div class="about-company_vacancies_content_table">
+                    <div class="about-company_vacancies_content_vacancy">
+                        <p class="about-company_vacancies_content_vacancy_city">Санкт-Петербург</p>
+                        <h3 class="about-company_vacancies_content_vacancy_title">специалист в отдел планировки территории (разработка транспортных решений)</h3>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title">Обязанности:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                проектирование объектов транспортной инфраструктуры в документации 
+                                по планировке территории (площадные и линейные проекты планировки);
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                подготовка чертежей и схем в составе проектов планировок (линейных 
+                                и площадных объектов): схемы УДС, схемы вертикальной планировки, 
+                                схем организации движения, схема поперечных профилей, схем внешних 
+                                транспортных сетей;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                подготовка пояснительных записок, выполнение необходимых расчётов,
+                                 разработка планировочных решений улично-дорожной сети (парковок)
+                                  в соответствии с нормативной документацией;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                подготовка графических материалов, схем в соответствии с нормативной документацией.
+                            </li>
+                        </ul>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title">Требования:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                высшее образование (городское хозяйство, градостроительство, 
+                                проектирование автомобильных дорог);
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                твердое знание действующего градостроительного законодательства РФ;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                наличие опыта разработки и утверждения проектов планировки территории;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                опыт согласования проектов в органах государственной власти различного уровня;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                знание программ: AutoCAD, MS Office (MapInfo, ArcGIS опционально).
+                            </li>
+                        </ul>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title"> Условия:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                оформление по ТК РФ;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                своевременная заработная плата, оклад + премия;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                график работы 5/2, с 09:00 до 18:00;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                перспективы профессионального и карьерного роста;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                офис недалеко от м. Черная речка.
+                            </li>
+                        </ul>                   
+                    </div>
+                    <div class="about-company_vacancies_content_vacancy">
+                        <p class="about-company_vacancies_content_vacancy_city">Санкт-Петербург</p>
+                        <h3 class="about-company_vacancies_content_vacancy_title">Главный специалист в отдел планировки территории</h3>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title">Обязанности:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">разработка документации по планировке
+                                 территории (площадные, линейные объекты, жилые кварталы);</li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                подготовка чертежей и схем в составе проектов планировок;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                подготовка пояснительных записок, выполнение необходимых расчётов;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                            подготовка графических материалов, схем в соответствии с нормативной документацией.
+                            </li>
+                        </ul>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title">Требования:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                высшее образование (городское хозяйство, градостроительство, проектирование автомобильных дорог);
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                твердое знание действующего градостроительного законодательства РФ;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                наличие опыта разработки и утверждения проектов планировки территории;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                знание программ: AutoCAD, MS Office (MapInfo, ArcGIS опционально).
+                            </li>
+                        </ul>
+                        <h4 class="about-company_vacancies_content_vacancy_content_title">Условия:</h4>
+                        <ul class="about-company_vacancies_content_vacancy_content_list">
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                оформление по ТК РФ;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                своевременная заработная плата, оклад + премия;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                график работы 5/2, с 09:00 до 18:00;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                перспективы профессионального и карьерного роста;
+                            </li>
+                            <li class="about-company_vacancies_content_vacancy_content_item">
+                                офис недалеко от м. Черная речка. 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-company_lisencies_content"></div>
+        </section>
+    </main>
+        <footer class="footer">
+            <div class="footer_left">
+                <div class="footer_left_logo"></div>
+                <p class="footer_left_warning">Использование материалов сайта npi-agi.ru разрешено только 
+                    с предварительного согласия правообладателей. Все права на фотографии и тексты принадлежат ООО НПИ «АГИ».</p>
+            </div>
+            <nav class="footer_menu">
+                <h3 class="footer_menu_title">Меню</h3>
+                <a href="" class="footer_menu_items">О компании</a>
+                <a href="" class="footer_menu_items">Новости</a>
+                <a href="" class="footer_menu_items">Проекты</a>
+                <a href="" class="footer_menu_items">Контакты</a>
+            </nav>
+            <div class="footer_contects">
+                <h3 class="footer_contects_title">Контакты</h3>
+                <div class="footer_contects_email">
+                    <div class="footer_contects_email_image"></div>
+                    <p class="footer_contects_email_text">mail@npi-agi.ru</p>
+                </div>
+                <div class="footer_contects_phone">
+                    <div class="footer_contects_phone_image"></div>
+                    <p class="footer_contacts_phone_number">+7(812) 627-17-68</p>
+                </div>
+            </div>
+            <p class="footer_year">© 2022</p>
+        </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
